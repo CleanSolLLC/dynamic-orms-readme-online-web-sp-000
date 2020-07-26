@@ -26,7 +26,7 @@ class Song
   end
 
   def initialize(options={})
-    options.each do |property, value|
+    options.each do |pr0operty, value|
       self.send("#{property}=", value)
     end
   end
